@@ -63,6 +63,7 @@ class App extends React.Component {
               )
             }
           />
+          <Redirect to="/" component={HomePage} />
         </Switch>
         <Footer />
       </div>
