@@ -1,0 +1,26 @@
+.cartDropdown {
+  position: absolute;
+  width: 240px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  z-index: 5;
+  background: #fff;
+  top: 80px;
+  right: 0;
+  .cartDropdown__empty {
+    font-size: 18px;
+    color: red;
+    margin: 50px auto;
+  }
+  &__items {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  button {
+    margin-top: auto;
+  }
+}

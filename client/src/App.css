@@ -1,0 +1,13 @@
+.App {
+  padding: 20px 60px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.error {
+  color: red;
+}
