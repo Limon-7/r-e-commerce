@@ -8,6 +8,7 @@ function CollectionOverview() {
   const collections = useSelector((state) =>
     selectCollectionsForPreview(state)
   );
+  console.log("collection overview:", collections);
   return (
     <div className="collectionOverview">
       {collections.map(({ id, ...otherCollections }) => (

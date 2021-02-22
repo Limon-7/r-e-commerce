@@ -94,6 +94,7 @@ export const fetechCollectionsStartAsync = () => {
       .get()
       .then((snapshot) => {
         const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
+        console.log("collection-map:", collectionsMap);
         dispatch(fetchCollectionSuccess(collectionsMap));
       })
       .catch((error) => dispatch(fetchCollectionFailure(error.message)));
