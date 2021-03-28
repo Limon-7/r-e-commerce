@@ -1,3 +1,3 @@
-#### Todo:
+#### Ecommerce UI with firebase
 
-App component with using hoc
+[Ecommerce Live:](https://ecommerce-app-7.netlify.app/)
